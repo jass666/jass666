@@ -315,6 +315,61 @@
     .tool-table td{border-bottom:none; padding:2px 0;}
   }
 
+  /* ---------- live projects showcase ---------- */
+  .live-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:1px;
+    background:var(--hairline);
+    border:1px solid var(--hairline);
+  }
+  .live-card{
+    background:var(--panel);
+    padding:22px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    min-height:170px;
+  }
+  .live-card .live-name{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    font-size:1.15rem;
+    color:var(--ink);
+    line-height:1.1;
+  }
+  .live-card .live-desc{
+    font-size:.85rem;
+    color:var(--ink-muted);
+    flex-grow:1;
+    margin:0;
+  }
+  .live-card .live-domain{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:.72rem;
+    color:var(--steel);
+    text-decoration:none;
+    border:1px solid var(--hairline);
+    padding:5px 9px;
+    border-radius:2px;
+    align-self:flex-start;
+    word-break:break-all;
+  }
+  .live-card .live-domain:hover{color:var(--amber); border-color:var(--amber-dim);}
+  .live-card .live-note{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:.68rem;
+    color:var(--ink-muted);
+    text-transform:uppercase;
+    letter-spacing:.5px;
+  }
+  @media (max-width:900px){
+    .live-grid{grid-template-columns:repeat(2, 1fr);}
+  }
+  @media (max-width:480px){
+    .live-grid{grid-template-columns:1fr;}
+  }
+
   /* ---------- log (experience/education) ---------- */
   .log-entry{
     display:grid;
@@ -389,6 +444,7 @@
     <div class="nav-right">
       <nav aria-label="Section navigation">
         <ul>
+          <li><a href="#live">Live</a></li>
           <li><a href="#systems">Systems</a></li>
           <li><a href="#stack">Stack</a></li>
           <li><a href="#tools">Tools</a></li>
@@ -436,8 +492,65 @@
       </div>
     </div>
 
+    <section class="block" id="live">
+      <div class="sec-code"><span class="n">sec. 01</span> — live right now</div>
+      <h2>Things you can open today</h2>
+      <p class="intro">The CRM running lead ops for both companies, plus the public tools and dealership sites shipped straight to Cloudflare Pages. No build step, no login required except LeadForge.</p>
+
+      <div class="live-grid">
+        <div class="live-card">
+          <span class="live-note">CRM</span>
+          <div class="live-name">LeadForge</div>
+          <p class="live-desc">Flask/PostgreSQL CRM managing 826+ leads across three dealership brands.</p>
+          <a class="live-domain" href="https://kzleadforge.up.railway.app/">kzleadforge.up.railway.app ↗</a>
+        </div>
+        <div class="live-card">
+          <span class="live-note">Open source</span>
+          <div class="live-name">Cash Ledger</div>
+          <p class="live-desc">Personal expense ledger — imports bank statements, auto-categorises transactions.</p>
+          <a class="live-domain" href="https://kzledger.pages.dev/">kzledger.pages.dev ↗</a>
+        </div>
+        <div class="live-card">
+          <span class="live-note">Open source</span>
+          <div class="live-name">KZ Downloader</div>
+          <p class="live-desc">Browser GUI that generates yt-dlp commands for any social profile or channel.</p>
+          <a class="live-domain" href="https://kzdownloader.pages.dev/">kzdownloader.pages.dev ↗</a>
+        </div>
+        <div class="live-card">
+          <span class="live-note">Open source</span>
+          <div class="live-name">The Auction Manual</div>
+          <p class="live-desc">Scrollspy'd reference covering Google Ads and Meta Ads end to end.</p>
+          <a class="live-domain" href="https://adguide.pages.dev/">adguide.pages.dev ↗</a>
+        </div>
+        <div class="live-card">
+          <span class="live-note">Dealership site</span>
+          <div class="live-name">LDE (combined)</div>
+          <p class="live-desc">Landing page unifying the Royal Enfield and Bajaj dealership brands.</p>
+          <a class="live-domain" href="https://kzlde.pages.dev/">kzlde.pages.dev ↗</a>
+        </div>
+        <div class="live-card">
+          <span class="live-note">Dealership site</span>
+          <div class="live-name">Royal Enfield</div>
+          <p class="live-desc">Motorcycle and lifestyle communication, EMI calculator, structured data.</p>
+          <a class="live-domain" href="https://kzldere.pages.dev/">kzldere.pages.dev ↗</a>
+        </div>
+        <div class="live-card">
+          <span class="live-note">Dealership site</span>
+          <div class="live-name">LDE Bajaj</div>
+          <p class="live-desc">Passenger and cargo three-wheeler product and offer communication.</p>
+          <a class="live-domain" href="https://ldebajaj.pages.dev/">ldebajaj.pages.dev ↗</a>
+        </div>
+        <div class="live-card">
+          <span class="live-note">Dealership site</span>
+          <div class="live-name">Swift Trucks</div>
+          <p class="live-desc">Tata commercial-vehicle dealership site with comparison tools.</p>
+          <a class="live-domain" href="https://kzswiftrucks.pages.dev/">kzswiftrucks.pages.dev ↗</a>
+        </div>
+      </div>
+    </section>
+
     <section class="block" id="systems">
-      <div class="sec-code"><span class="n">sec. 01</span> — systems built</div>
+      <div class="sec-code"><span class="n">sec. 02</span> — systems built</div>
       <h2>Marketing infrastructure</h2>
       <p class="intro">Each of these started as a bottleneck — a spreadsheet that broke, a location nobody could find on Maps, leads going cold in a WhatsApp thread. They're built to be used by non-technical showroom staff, not just by me.</p>
 
@@ -519,7 +632,7 @@
     </section>
 
     <section class="block" id="stack">
-      <div class="sec-code"><span class="n">sec. 02</span> — working stack</div>
+      <div class="sec-code"><span class="n">sec. 03</span> — working stack</div>
       <h2>Tools and technology</h2>
 
       <div class="stack-row">
@@ -549,7 +662,7 @@
     </section>
 
     <section class="block" id="tools">
-      <div class="sec-code"><span class="n">sec. 03</span> — open source</div>
+      <div class="sec-code"><span class="n">sec. 04</span> — open source</div>
       <h2>Tools I've shipped publicly</h2>
       <p class="intro">Deliberately no-backend, no-build-step: plain HTML/CSS/JS, straight to Cloudflare Pages. Built so a non-technical person can just open and use them.</p>
 
@@ -603,7 +716,7 @@
     </section>
 
     <section class="block" id="log">
-      <div class="sec-code"><span class="n">sec. 04</span> — service log</div>
+      <div class="sec-code"><span class="n">sec. 05</span> — service log</div>
       <h2>Experience &amp; education</h2>
 
       <div class="log-entry">
