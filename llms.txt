@@ -1,0 +1,30 @@
+# Jaswant Kanojia
+
+> Marketing Operations & MarTech specialist based in Lucknow, India. Sole digital marketing function for a 3-brand, 22-location automotive dealership group (Royal Enfield, Bajaj three-wheelers, Tata commercial vehicles). Builds the CRM, lead-operations, and local-SEO systems that marketing runs on, not just the campaigns on top of it.
+
+## Key facts
+- Role: Marketing Operations & Digital Marketing Associate at Lucknow Diesel & Electricals (LDE Royal Enfield, LDE Bajaj) and Swift Trucks LLP (Tata Commercial Vehicles), Lucknow — since March 2026.
+- Built LeadForge, a Flask/PostgreSQL CRM managing 826+ leads across three dealership brands; recovered ~600 previously unattended Meta leads and cut response time to under 30 minutes.
+- Took Google Business Profile presence from 2 to 17 verified, fully optimised locations (of 22 total).
+- Rebuilt 5 dealership websites with technical SEO fixes and GA4/GTM/Search Console instrumentation.
+- Education: B.Sc. (Physics & Chemistry), University of Lucknow, 2020. Google Digital Marketing Professional Certificate, HubSpot Digital Marketing Certification. NIELIT ADCA/DCA/CCC.
+- Contact: jaswantkanojia04@gmail.com · +91 86016 15224 · Lucknow, Uttar Pradesh, India.
+
+## Live systems
+- [LeadForge CRM](https://kzleadforge.up.railway.app/): Flask/PostgreSQL CRM for lead operations across three dealership brands.
+- [LDE Royal Enfield](https://kzldere.pages.dev/): Motorcycle dealership site with EMI calculator and structured data.
+- [LDE Bajaj](https://ldebajaj.pages.dev/): Three-wheeler dealership site.
+- [Swift Trucks](https://kzswiftrucks.pages.dev/): Tata commercial-vehicle dealership site with comparison tools.
+- [LDE combined](https://kzlde.pages.dev/): Landing page unifying the Royal Enfield and Bajaj brands.
+
+## Open-source tools
+- [KZ Downloader](https://kzdownloader.pages.dev/): Browser GUI generating yt-dlp commands for any social profile or channel. [Source](https://github.com/jass666/KZ-Downloader)
+- [The Auction Manual](https://adguide.pages.dev/): Scrollspy'd reference covering Google Ads and Meta Ads end to end. [Source](https://github.com/jass666/Google-ads)
+- [Current Affairs Deck](https://kzcurrent.pages.dev/): Revision tool for competitive exam current affairs. [Source](https://github.com/jass666/kzcurrent)
+- [Revision Notes Hub](https://kznotes.pages.dev/): Browser-based revision hub for exam prep. [Source](https://github.com/jass666/Revision_notes)
+- [shellref](https://shellref.pages.dev/): Browser cheat sheet for CMD, PowerShell, WSL, and Unix commands. [Source](https://github.com/jass666/shellref)
+- [Cash Ledger](https://kzledger.pages.dev/): Personal expense ledger importing bank statements and auto-categorising transactions.
+
+## Profiles
+- [LinkedIn](https://www.linkedin.com/in/jaswant-kanojia-a978642b3/)
+- [GitHub](https://github.com/jass666)
